@@ -8,4 +8,5 @@
 
     {% endset %}
 
+    {% do run_query(query) %}
 {% endmacro %}
